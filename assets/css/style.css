@@ -99,4 +99,6 @@ p {
     border-radius: 4px;
     background: linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%);
     border: 1px solid transparent;
+    opacity: 0;
+    transition: all 300ms linear;
 }

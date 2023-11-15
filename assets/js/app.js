@@ -28,3 +28,10 @@ reset.addEventListener("click", () => {
     value.innerHTML = 0;
     savedValue.innerHTML = 0
 })
+
+add.addEventListener("click", () => {
+     if (value.innerHTML != 0) {
+        reset.style.opacity = 1
+    }
+
+})
